@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <h1 style="text-align: center;back">Biểu Mẫu Khảo sát ITviec</h1>
+        <div >
+          <label for="fname">Họ tên</label>
+          <br />
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            required
+            placeholder="Nhập tên của bạn"
+            size="60"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email</label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            required
+            placeholder="Nhập email của bạn"
+            size="60"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="age">Tuổi</label>
+          <br />
+          <input
+            type="text"
+            name="age"
+            id="age"
+            required
+            placeholder="Nhập tuổi của bạn"
+            size="60"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="introduce">Hiện tại bạn đang là:</label>
+          <br />
+          <select name="introduce" id="introduce">
+            <option value="" selected hidden disable>
+              Học sinh / Sinh viên
+            </option>
+            <option value="Học sinh">Học sinh</option>
+            <option value="Sinh viên">Sinh viên</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="invite">Bạn sẽ giới thiệu ITviec với bạn bè chứ?</label>
+          <br />
+          <input type="radio" name="invite" id="Yes" />
+          <label for="Yes">Có</label>
+          <br />
+          <input type="radio" name="invite" id="No" />
+          <label for="No">Không</label><br />
+          <input type="radio" name="invite" id="Can" />
+          <label for="can">Có thể</label>
+        </div>
+        <br />
+        <div>
+          <label for="know"
+            >Ngôn ngữ lập trình hoặc framework mà bạn biết?
+            <small>(có thể chọn nhiều đáp án)</small></label
+          >
+          <br />
+          <input type="radio" name="know" id="C" />
+          <label for="C">C</label>
+          <br />
+          <input type="radio" name="know" id="C++" />
+          <label for="C++">C++</label><br />
+          <input type="radio" name="know" id="C#" />
+          <label for="C#">C#</label>
+        </div>
+        <br />
+        <div>
+          <label for="question">Bạn có câu hỏi nào cho ITviec không?</label>
+          <br />
+          <input
+            type="text"
+            name="question"
+            id="question"
+            size="60"
+            placeholder="comment dưới đây"
+          />
+        </div>
+        <br />
+        <input type="submit" name="" id="" />
+      </div>
+    </form>
+  </body>
+</html>
